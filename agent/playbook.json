@@ -1,6 +1,6 @@
 {
   "game": "SunQuest",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "last_updated": "2026-06-27",
   "base_url": "https://playsunquest.com",
   "author": "Hermes Agent (automated)",
@@ -388,14 +388,31 @@
       "type": "library"
     },
     "shadow_lands": {
-      "name": "The Shadow Lands",
-      "hub": "/shadow-lands/",
-      "pages": [],
+      "name": "The Shadow Lands (Endgame)",
+      "hub": "/shadow-lands-left/",
+      "pages": [
+        "/shadow-lands-left/portal-choice/",
+        "/shadow-lands-left/portal/",
+        "/shadow-lands-left/elaras-room/",
+        "/shadow-lands-left/elaras-room-defeated/",
+        "/shadow-lands-left/elaras-room-victory/",
+        "/shadow-lands-left/meet-knight/",
+        "/shadow-lands-left/mk-activate/",
+        "/shadow-lands-left/mk-first-attack/",
+        "/shadow-lands-left/mk-horn-2-attack/",
+        "/shadow-lands-left/mk-horn-2/",
+        "/secret-shadow-lands-q/",
+        "/secret-shadow-lands-q/key/",
+        "/secret-shadow-lands-q/area-2/",
+        "/secret-shadow-lands-q/area-2-eye/",
+        "/secret-shadow-lands-q/rune/"
+      ],
       "connects_to": [
-        "drakenhold"
+        "cave_upper"
       ],
       "type": "endgame",
-      "notes": "LOCKED \u2014 requires Demon Key from /devils-key-2/. Contains Orb of Umbra #2 & #3 and Demon Kobal boss."
+      "access": "PASSWORD PROTECTED \u2014 requires \"Voidcaster's Code\" from Patreon (patreon.com/sungym)",
+      "notes": "Contains Orb Combine Portal (elaras-room), Kobal boss fight (mk-* pages), and final win condition"
     }
   },
   "combat": {
@@ -475,34 +492,32 @@
     },
     "orb_of_umbra": {
       "count": 3,
-      "confirmed": 1,
-      "orb_1": "/cave-7-found/",
-      "orb_2": "The Shadow Lands (locked)",
-      "orb_3": "The Shadow Lands (locked)"
+      "orb_1": {
+        "location": "/cave-7-found/",
+        "status": "confirmed_free"
+      },
+      "orb_2": {
+        "location": "The Shadow Lands (elaras-room area)",
+        "status": "Patreon-locked"
+      },
+      "orb_3": {
+        "location": "The Shadow Lands (elaras-room area)",
+        "status": "Patreon-locked"
+      }
     }
   },
   "endgame": {
-    "win_condition": "Collect 3 Orbs of Umbra \u2192 Combine at Orb Combine Portal \u2192 Defeat Demon Kobal",
-    "demon_key_chain": [
-      "/devils-key/",
-      "/devils-key-2/"
-    ],
-    "shadow_lands_access": "Requires Demon Key from devils-key-2 (may need potions/gold from findpotion chain)",
-    "final_boss": "Demon Kobal",
-    "orb_combine_portal": "Location unknown \u2014 possibly unlocks only when all 3 orbs are held"
+    "win_condition": "Collect 3 Orbs \u2192 Enter Shadow Lands (Patreon) \u2192 Defeat Kobal \u2192 Elara combines orbs \u2192 WIN",
+    "shadow_lands_entry": "/secret-shadow-lands-q/ (Patreon password required)",
+    "orb_combine_portal": "/shadow-lands-left/portal/ \u2192 /shadow-lands-left/elaras-room/",
+    "kobal_fight_path": "/meet-knight/ \u2192 /mk-activate/ \u2192 /mk-first-attack/ \u2192 /mk-horn-2-attack/ \u2192 /mk-horn-2/",
+    "elara_mechanic": "Bring Kobal's Defeated Token to elaras-room to unlock orb combining",
+    "final_boss": "Demon Kobal (encountered at end of mk-horn-2 chain)",
+    "patreon_password": "Required: \"Voidcaster's Code\" from patreon.com/sungym"
   },
   "exploration_status": {
-    "coverage": "~60 pages across 18 areas",
-    "orb_status": "1 of 3 confirmed",
-    "new_areas": [
-      "drakenhold",
-      "goraks_house",
-      "skyship",
-      "library_2",
-      "wizard_house",
-      "the_forge",
-      "third_floor_library",
-      "shadow_lands"
-    ]
+    "coverage": "~80 pages across 20+ areas",
+    "orb_status": "1 confirmed (Orb #2/#3 location known but area Patreon-locked)",
+    "endgame_status": "FULLY MAPPED \u2014 Patreon password blocks entry"
   }
 }

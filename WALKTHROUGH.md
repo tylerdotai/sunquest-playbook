@@ -238,8 +238,35 @@ python sunquest_agent.py --action find_orb --orb_number 2
 7. ⏳ The Witch, Forge, Dwarf quest rewards
 8. ⏳ 15+ unexplored areas from the items page
 
-## 🌑 The Shadow Lands (Endgame) — LOCKED
-**Access:** Complete the Demon Key quest chain first.
+## 🌑 The Shadow Lands (Endgame) — PATREON PASSWORD REQUIRED
+
+**⚠️ IMPORTANT:** The Shadow Lands is locked behind a Patreon paywall. To enter, you need **"Voidcaster's Code"** from the game's Patreon page: **patreon.com/sungym**
+
+If you have the password, enter it at: `/shadow-lands-left/shadow-lands-left-choice-get-in/` → text box → UNLOCK
+
+### Entry Path (Free Game → Patreon Locked Zone)
+1. **Get Orb #1:** `/cave-7-found/` (cave adventurer gives it, warns all 3 needed)
+2. **Reach Cave Portal:** Navigate to `/skull-dungeon/714-2/` → path to cave-7 area
+3. **Use Cave Portal:** Go to `/cave-portal-do/` → requires Lantern item from `/inventory/lantern-of-the-dead/`
+4. **Enter Shadow Lands:** `/cave-portal-do-lantern/` → `/secret-shadow-lands-q/` → enter Patreon password
+5. **Reach Portal:** `/shadow-lands-left/` → `/portal-choice/` → `/portal/`
+
+### Orb Combine Portal Path
+1. At `/portal-choice/` → go through portal → `/portal/`
+2. Click through to `/elaras-room/`
+3. **Elara** is here (a knight). She asks: "Defeated Token or Victory Token?"
+4. You need Kobal's **Defeated Token** — obtained from the Kobal fight chain
+
+### Kobal Fight Path
+1. `/shadow-lands-left/` → `meet-knight/` → `mk-activate/`
+2. Fight rounds: `mk-first-attack/` → `mk-horn-2-attack/` → `mk-horn-2/`
+3. Win → get **Defeated Token**
+4. Return to `/elaras-room/` → select "Defeated Token"
+5. **Elara combines your 3 Orbs** → DEMON KOBAL appears
+6. Defeat Kobal → 🎉 **YOU WIN!**
+
+### Without Password (Free Gameplay Ends Here)
+The base game ends at collecting Orb #1. The Shadow Lands, Orbs #2 & #3, and the Demon Kobal fight are in the Patreon Expansion Pack.
 
 ### Step 1: Get the Demon Key
 1. Start at `/devils-key/` → `/devils-key-2/`
