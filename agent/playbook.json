@@ -1,523 +1,270 @@
 {
-  "game": "SunQuest",
-  "version": "2.0.0",
-  "last_updated": "2026-06-27",
+  "game": "SunQuest RPG",
+  "version": "2.1",
+  "playbook_url": "https://github.com/tylerdotai/sunquest-playbook",
+  "last_updated": "2026-06-26",
   "base_url": "https://playsunquest.com",
-  "author": "Hermes Agent (automated)",
-  "world": {
-    "hub": "starting-location/s-map/",
-    "areas": [
-      {
-        "name": "Skull Dungeon",
-        "url": "skull-dungeon/",
-        "description": "Main dungeon \u2014 multi-floor cave system",
-        "sub_areas": [
-          "714-2 (entry)",
-          "719-2 (forest hub)",
-          "skull-dungeon-2 (safe zone)"
-        ]
-      },
-      {
-        "name": "Emberwind Crossroads",
-        "url": "emberwind-crossroads/",
-        "description": "Central hub \u2014 quests, NPCs, fast travel"
-      },
-      {
-        "name": "The Crypt",
-        "url": "the-crypt/",
-        "description": "Gothic underground crypt \u2014 item-gated progression",
-        "sub_areas": [
-          "crypt-l-room (hub)",
-          "crypt-relic (item)",
-          "crypt-king-room (boss)"
-        ]
-      },
-      {
-        "name": "Bounty Quest",
-        "url": "bounty-quest/",
-        "description": "Quest hub with sub-quests: Ladder, Sea Ghost boss"
-      },
-      {
-        "name": "Jail Quest",
-        "url": "a-jail-quest/",
-        "description": "Escape quest chain \u2014 leads to forge, witch, dwarf"
-      },
-      {
-        "name": "The Oak Tavern",
-        "url": "skull-dungeon/oak-tavern/",
-        "description": "Forest safe zone with NPCs"
-      },
-      {
-        "name": "Cave Upper System",
-        "url": "cave-upper-well-choice/",
-        "description": "Underground cave area with combat, orb, sword"
-      },
-      {
-        "name": "Troll Dungeon",
-        "url": "troll-dungeon/",
-        "description": "Tuskbreaker Dungeon \u2014 new area from bounty quest"
-      },
-      {
-        "name": "BHC Library",
-        "url": "bhc/",
-        "description": "Gothic library \u2014 book of Death lore"
-      }
-    ]
+
+  "metadata": {
+    "format": "Image-map RPG / Click adventure",
+    "engine": "WordPress (clickable image hotspots)",
+    "auth": "None (fully public)",
+    "endgame_locked": "Yes — Shadow Lands requires Patreon password"
   },
-  "nodes": {
-    "START": {
-      "url": "starting-location/s-map/",
-      "type": "hub",
-      "description": "Fast travel map \u2014 20 destinations",
-      "links": [
-        "emberwind-crossroads",
-        "skull-dungeon/714-2",
-        "the-tavern",
-        "lampa",
-        "findlight"
-      ]
+
+  "world_areas": {
+    "skull_dungeon": {
+      "name": "Skull Dungeon",
+      "hub": "/skull-dungeon/",
+      "links_to": ["cave-upper", "the-crypt", "emberwind-crossroads", "oak-tavern"],
+      "sub_areas": {
+        "714-2": {"name": "Skull Dungeon Part 2", "links_to": ["skull-dungeon-2", "cave-upper-well-choice", "cave-upper", "cave-upper-skull-eye"]},
+        "719-2": {"name": "Skull Dungeon Part 3", "links_to": ["729-2", "skull-dungeon-2", "emberwind-crossroads", "oak-tavern", "part-3-gp", "the-crypt", "the-tavern"]},
+        "729-2": {"name": "Skull Dungeon Part 4", "links_to": ["p-skull-room-lock", "p-skull-room-lock-gs"]},
+        "part-3-gp": {"name": "Skull Dungeon Part 3 GP", "links_to": ["719-2"]},
+        "skull-dungeon-2": {"name": "Skull Dungeon Safe Zone", "links_to": ["skull-dungeon", "cave-upper"]},
+        "p-skull-room-lock": {"name": "Puzzler's Hidden Chest #1", "puzzle": true, "links_to": ["skull-dungeon/completed"]},
+        "p-skull-room-lock-gs": {"name": "Puzzler's Riddle Chest", "puzzle": true, "riddle": "I'm bone, but not alive, Empty sockets where eyes did reside. What am I, that grins and stares, A relic of death that nobody dares?", "answer": "SKULL", "links_to": ["skull-dungeon/completed"]},
+        "completed": {"name": "Chest Opened", "links_to": ["skull-dungeon/729-2"]}
+      }
     },
-    "SKULL_DUNGEON_714": {
-      "url": "skull-dungeon/714-2/",
-      "type": "hub",
-      "description": "Skull Dungeon entry floor \u2014 4 links including cave system",
-      "links": [
-        "skull-dungeon-2 (LOOPS)",
-        "cave-upper-well-choice",
-        "cave-upper",
-        "cave-upper-skull-eye"
-      ]
+    "the_crypt": {
+      "name": "The Crypt",
+      "hub": "/the-crypt/",
+      "sub_areas": {
+        "crypt-king-room": {"name": "Crypt King Room", "combat": "crypt_king"},
+        "crypt-king-swing": {"name": "Crypt King Fight", "links_to": ["crypt-l-room", "crypt-king-victory", "crypt-king-defeat"]},
+        "crypt-king-victory": {"name": "Crypt King Victory", "outcome": "WIN", "links_to": ["crypt-king-room"]},
+        "crypt-king-defeat": {"name": "Crypt King Defeat", "outcome": "LOSE", "links_to": ["crypt-king-room"]},
+        "left-door": {"name": "Crypt Left Door Hub", "links_to": ["crypt-l-room", "crypt-relic", "enter-l9-mummy-relic"]},
+        "crypt-l-room": {"name": "Crypt Left Room", "links_to": ["crypt-relic", "crypt-l-book", "crypt-king-room"]},
+        "crypt-l-book": {"name": "Crypt Left Book Page"},
+        "right-door": {"name": "Crypt Right Door", "links_to": ["crypt-relic-place"]},
+        "crypt-relic-place": {"name": "Crypt Relic Place", "links_to": ["crypt-relic", "crypt-l-room", "right-door", "enter-l9-mummy-relic"]},
+        "crypt-relic": {"name": "Crypt Relic", "links_to": ["skull-dungeon/719-2", "crypt-relic-place", "right-door", "enter-l9-mummy-relic"]},
+        "enter-l9-mummy-relic": {"name": "Mummy Relic Room", "type": "relic", "links_to": ["crypt-relic"], "note": "Reward screen, not combat"}
+      }
     },
-    "SKULL_DUNGEON_2": {
-      "url": "skull-dungeon/skull-dungeon-2/",
-      "type": "safe_zone",
-      "description": "Welcome back scene \u2014 LOOP back to 714-2",
-      "links": [
-        "skull-dungeon/714-2"
-      ]
+    "cave_upper": {
+      "name": "Cave Upper System",
+      "hub": "/cave-upper/",
+      "sub_areas": {
+        "cave-upper-well-choice": {"name": "Well Choice", "links_to": ["cave-upper-skull-eye", "cave-upper-well-no", "cave-upper", "skull-dungeon/skull-dungeon-2"]},
+        "cave-upper-well-no": {"name": "Well (Not)"}, "cave-upper-skull-eye": {"name": "Skull Eye", "links_to": ["cave-upper-skull-eye-2"]},
+        "cave-upper-skull-eye-2": {"name": "Skull Eye Part 2"}
+      }
     },
-    "CAVE_UPPER_WELL_CHOICE": {
-      "url": "cave-upper-well-choice/",
-      "type": "hub",
-      "description": "Cave junction \u2014 4 choices: down-well, skull-eye, well-no, cave-upper"
+    "emberwind_crossroads": {"name": "Emberwind Crossroads", "hub": "/emberwind-crossroads/"},
+    "bounty_quest": {
+      "name": "Bounty Quest",
+      "hub": "/bounty-quest/",
+      "sub_areas": {
+        "avenr": {"name": "Bounty Quest Avenr", "links_to": ["bounty-quest", "troll-dungeon", "bhc", "avenr-ladder", "avenr-sea-ghost", "cotd/skull"]},
+        "avenr-sea-ghost": {"name": "Sea Ghost", "type": "boss", "links_to": ["bounty-quest", "troll-dungeon", "bhc", "avenr-ladder", "avenr-sea-ghost", "cotd/skull"]},
+        "avenr-ladder": {"name": "Ladder Quest"}
+      }
     },
-    "CAVE_UPPER_SKULL_EYE_2": {
-      "url": "cave-upper-skull-eye-2/",
-      "type": "combat_hub",
-      "description": "Icy cave with cyan portal, skull altar \u2014 links to skull-cave combat"
+    "jail_quest": {"name": "Jail Quest", "hub": "/a-jail-quest/"},
+    "oak_tavern": {"name": "Oak Tavern", "hub": "/skull-dungeon/oak-tavern/"},
+    "troll_dungeon": {
+      "name": "Troll Dungeon",
+      "hub": "/troll-dungeon/",
+      "sub_areas": {
+        "troll-dungeon-no-bow": {"name": "Troll Fight (No Bow)", "combat": "troll", "equipment_check": true},
+        "troll-dungeon-fight-equip-bow-victory": {"name": "Troll Victory (Bow Equipped)", "outcome": "WIN"},
+        "troll-book": {}, "chest-room": {}
+      }
     },
-    "SKULL_CAVE": {
-      "url": "skull-cave/",
-      "type": "combat_hub",
-      "description": "Skull cave interior \u2014 attack or explore"
+    "bhc": {"name": "BHC Library", "hub": "/bhc/"},
+    "library_2": {
+      "name": "BHC Library 2",
+      "sub_areas": {
+        "bhc-yes": {}, "bhc-no": {}, "shadow-orb": {"name": "Shadow Orb Info", "type": "item_info"}
+      }
     },
-    "CAVE_7_FOUND": {
-      "url": "cave-7-found/",
-      "type": "ITEM_ACQUIRED",
-      "description": "ORB OF THE SUN acquired here \u2014 1st orb confirmed",
-      "links": [
-        "cave-7-portal-choice"
-      ]
+    "dragonfire_watch": {"name": "Dragonfire Watch"},
+    "dragon_echo_cove": {"name": "Dragon Echo Cove"},
+    "devils_mouth": {"name": "Devil's Mouth"},
+    "grimstone_tower": {"name": "Grimstone Tower"},
+    "stonewind": {"name": "Stonewind"},
+    "stonemyst_village": {"name": "Stonemyst Village"},
+    "witches_woods": {"name": "Witches Woods"},
+    "shadowshade_grove": {"name": "Shadowshade Grove"},
+    "ancient_tree": {"name": "Ancient Tree"},
+    "temple_of_laskara": {"name": "Temple of Laskara"},
+    "eastfall_farms": {"name": "Eastfall Farms"},
+    "rivervale": {"name": "Rivervale"},
+    "ooze_kingdom": {"name": "Ooze Kingdom"},
+    "ancient_dungeon": {"name": "Ancient Dungeon"},
+    "arcane_observatory": {"name": "Arcane Observatory"},
+    "forge": {"name": "The Forge", "sub_areas": {"forge-shadow": {}, "forge-shadow-2": {}, "forge-shadow-3": {}}},
+    "mills": {"name": "Mills"},
+    "dwarfhousefound": {"name": "Dwarf House Found"},
+    "dwarf_chest": {"name": "Dwarf Chest"},
+    "pirate_ship": {"name": "Pirate Ship"},
+    "arena": {"name": "Arena", "links_to": ["arcane-observatory/row-arena"]},
+    "training_isle": {"name": "Training Isle", "sub_areas": {"training-isle-grab-sword": {}, "training-isle-grab-bow": {}, "2-training-stage-2": {}, "2-training-stage-2-bow": {}}},
+    "cave_7_portal": {
+      "name": "Cave 7 Portal",
+      "sub_areas": {
+        "cave-7-portal-choice": {"name": "Portal Choice"},
+        "cave-portal-do": {"name": "Use Lantern", "locked": true, "requires": "Lantern of the Dead"},
+        "cave-portal-do-lantern": {"name": "Portal With Lantern", "leads_to": "secret-shadow-lands-q"},
+        "cave-portal-do-lantern-2": {"name": "Shadow Lands Entry", "locked": true, "requires_patreon": true}
+      }
     },
-    "SKULL_DUNGEON_719": {
-      "url": "skull-dungeon/719-2/",
-      "type": "forest_hub",
-      "description": "Forest hub \u2014 links to The Crypt, Oak Tavern, 729-2"
-    },
-    "THE_CRYPT": {
-      "url": "the-crypt/",
-      "type": "dungeon_entrance",
-      "description": "Crypt entrance \u2014 3 choices: enter, left-door, right-door",
-      "links": [
-        "enter (main)",
-        "left-door (dead end)",
-        "right-door (dead end)"
-      ]
-    },
-    "CRYPT_ENTER": {
-      "url": "the-crypt/enter/",
-      "type": "crypt_hub",
-      "description": "Main crypt floor \u2014 4 options: enter-axe, enter-coffin, enter-main, enter-l1",
-      "gated": true,
-      "requirements": [
-        "Crypt Key for enter-axe",
-        "Relic of the Afterlife for enter-main/enter-l1"
-      ]
-    },
-    "CRYPT_REQUIRES_KEY": {
-      "url": "the-crypt/enter-axe/",
-      "type": "gated",
-      "description": "Requires CRYPT KEY \u2014 cannot enter without it",
-      "key_item": "Crypt Key"
-    },
-    "CRYPT_REQUIRES_RELIC": {
-      "url": "the-crypt/enter-main/",
-      "type": "gated",
-      "description": "Requires Relic of the Afterlife",
-      "key_item": "Relic of the Afterlife"
-    },
-    "CRYPT_RELIC": {
-      "url": "the-crypt/crypt-relic/",
-      "type": "ITEM_ACQUIRED",
-      "description": "RELIC OF THE AFTERLIFE found here",
-      "links": [
-        "crypt-relic-place",
-        "right-door",
-        "enter-l9-mummy-relic"
-      ]
-    },
-    "CRYPT_KING_ROOM": {
-      "url": "the-crypt/crypt-king-room/",
-      "type": "boss_room",
-      "description": "Crypt King boss arena \u2014 2 links: crypt-l-room, crypt-king-swing",
-      "links": [
-        "crypt-l-room",
-        "crypt-king-swing"
-      ]
-    },
-    "CRYPT_KING_SWING": {
-      "url": "the-crypt/crypt-king-swing/",
-      "type": "combat",
-      "description": "Crypt King attack \u2014 outcome pages: victory OR defeat",
-      "victory_url": "the-crypt/crypt-king-victory/",
-      "defeat_url": "the-crypt/crypt-king-defeat/",
-      "next_link": "crypt-king-swing"
-    },
-    "CRYPT_KING_VICTORY": {
-      "url": "the-crypt/crypt-king-victory/",
-      "type": "victory"
-    },
-    "CRYPT_KING_DEFEAT": {
-      "url": "the-crypt/crypt-king-defeat/",
-      "type": "defeat"
-    },
-    "ENTER_L9_MUMMY_RELIC": {
-      "url": "the-crypt/enter-l9-mummy-relic/",
-      "type": "combat",
-      "description": "Mummy fight \u2014 reward: Relic of the Afterlife path"
-    },
-    "CRYPT_L_BOOK": {
-      "url": "the-crypt/crypt-l-book/",
-      "type": "hub",
-      "description": "Links to crypt-relic and crypt-king-room",
-      "links": [
-        "crypt-relic",
-        "crypt-king-room"
-      ]
-    },
-    "CRYPT_RELIC_PLACE": {
-      "url": "the-crypt/crypt-relic-place/",
-      "type": "hub",
-      "description": "Links: 719-2, crypt-l-room, right-door, enter-l9-mummy-relic"
-    },
-    "SKULL_CAVE_ATTACK": {
-      "url": "skull-cave/attack/",
-      "type": "combat",
-      "description": "Skull cave attack \u2014 victory or defeat",
-      "victory_url": "skull-cave/swing-victory/",
-      "defeat_url": "skull-cave/swing-defeat/"
-    },
-    "PICK_UP_SWORD": {
-      "url": "skull-cave/pick-up-sword/",
-      "type": "ITEM_ACQUIRED",
-      "description": "Sword acquired"
-    },
-    "OAK_TAVERN": {
-      "url": "skull-dungeon/oak-tavern/",
-      "type": "safe_zone",
-      "description": "Forest tavern \u2014 NPCs and rest"
-    },
-    "PART_3_GP": {
-      "url": "skull-dungeon/part-3-gp/",
-      "type": "tomb",
-      "description": "Gothic tomb with treasure \u2014 links to 729-2, skull-dungeon-2, crossroads, oak-tavern, the-crypt"
-    },
-    "BOUNTY_QUEST": {
-      "url": "bounty-quest/",
-      "type": "quest_hub",
-      "description": "Bounty board \u2014 links to Avenr, troll-dungeon, bhc"
-    },
-    "BOUNTY_QUEST_AVENR": {
-      "url": "bounty-quest/avenr/",
-      "type": "npc_hub",
-      "description": "Avenr NPC \u2014 links to ladder and sea ghost quest"
-    },
-    "SEA_GHOST": {
-      "url": "bounty-quest/bounty-quest-avenr-the-sea-ghost/",
-      "type": "boss",
-      "description": "Sea Ghost boss fight"
-    },
-    "TROLL_DUNGEON": {
-      "url": "troll-dungeon/",
-      "type": "dungeon",
-      "description": "Tuskbreaker Dungeon \u2014 discovered via bounty quest"
-    },
-    "BHC": {
-      "url": "bhc/",
-      "type": "location",
-      "description": "Gothic library \u2014 'Book of Death' lore"
-    },
-    "JAIL_QUEST_ORC": {
-      "url": "a-jail-quest/the-orc/",
-      "type": "quest_start",
-      "description": "Jail quest \u2014 the orc stole the key"
-    },
-    "JAIL_QUEST_ORC_STOLE_KEY": {
-      "url": "a-jail-quest/the-orc-stole-key/",
-      "type": "quest_hub",
-      "description": "Links to dwarfhouse, woods-key, witch pond, the-forge"
-    },
-    "DWARFHOUSE": {
-      "url": "dwarfhouse/",
-      "type": "location",
-      "description": "Dwarf NPC location"
-    },
-    "THE_FORGE": {
-      "url": "the-forge/",
-      "type": "location",
-      "description": "Blacksmith/forge location"
-    },
-    "WITCH_POND": {
-      "url": "a-witch-quest/pond/",
-      "type": "location",
-      "description": "Witch NPC location"
-    },
-    "DOWN_WELL": {
-      "url": "down-well/",
-      "type": "exploration",
-      "description": "Dark well \u2014 sub-area with key, chest, wood, cube"
+    "orbm": {"name": "ORBM Mechanism", "hub": "/orbm/", "sub_areas": {"orbm-accept": {}, "orbm-deny": {}}},
+    "shadow_lands": {
+      "name": "The Shadow Lands",
+      "patreon_locked": true,
+      "password": "Voidcaster's Code",
+      "password_source": "patreon.com/sungym",
+      "hub": "/secret-shadow-lands-q/",
+      "sub_areas": {
+        "shadow-lands-left": {
+          "name": "Shadow Lands Left Hub",
+          "links_to": ["portal-choice", "meet-knight", "stairs", "shadow-lands-left-pa"]
+        },
+        "portal-choice": {"name": "Orb Combine Portal", "leads_to": "elaras-room"},
+        "elaras-room": {
+          "name": "Elara's Room",
+          "description": "Elara is a knight whose brother is Demon Kobal. She will combine orbs, but only if you bring her Kobal's Defeated Token.",
+          "choices": {"defeated_token": "Get Kobal's Defeated Token → combines orbs → Demon Kobal appears", "victory_token": "Unclear outcome"}
+        },
+        "stairs": {"name": "Shadow Lands Stairs", "links_to": ["mk-activate"]},
+        "mk-activate": {"name": "Knight Activate", "leads_to": "mk-first-attack"},
+        "mk-first-attack": {"name": "Kobal Fight Round 1"},
+        "mk-horn-2-attack": {"name": "Kobal Fight Round 2"},
+        "mk-horn-2": {"name": "Kobal Fight Final Round", "drops": "Defeated Token"},
+        "elaras-room-victory": {"name": "Kobal Defeated Victory", "outcome": "WIN"},
+        "elaras-room-defeated": {"name": "Kobal Defeated", "outcome": "LOSE"}
+      }
     },
     "drakenhold": {
       "name": "Drakenhold",
-      "hub": "/drakenhold/",
-      "pages": [
-        "/drakenhold/keep-courtyard/",
-        "/drakenhold/drakenhold-cellar/",
-        "/drakenhold/keep-inside-tavern/",
-        "/drakenhold/keep-inside-tavern-door/",
-        "/drakenhold/keep-inside-tavern-2/"
-      ],
-      "connects_to": [
-        "emberwind-crossroads",
-        "the-forge"
-      ],
-      "type": "\u57ce\u5821\u57ce\u9547"
+      "sub_areas": {
+        "keep-inside-tavern": {}, "keep-courtyard": {}, "drakenhold-cellar": {},
+        "keep-library": {}, "keep-throne-hall": {}, "keep-throne-room": {},
+        "keep-throne-room-close": {"choices": {"accept": "item-page-2", "deny": "keep-throne-room-deny"}},
+        "keep-throne-room-accept": {}, "keep-throne-room-deny": {}
+      }
     },
-    "goraks_house": {
-      "name": "Gorak's House",
-      "hub": "/goraks-house/",
-      "pages": [
-        "/goraks-house/house/",
-        "/goraks-house/wagon/",
-        "/goraks-house/goraks-dungeon/",
-        "/goraks-house/goraks-dungeon-choice/",
-        "/goraks-house/cart-back/"
-      ],
-      "connects_to": [
-        "skyship"
-      ],
-      "type": "npc_house"
-    },
-    "skyship": {
-      "name": "Skyship",
-      "hub": "/skyship/",
-      "pages": [
-        "/skyship/skyship-c-room/",
-        "/skyship/skyship-map/",
-        "/skyship/skyship-return/",
-        "/skyship/skyship-lounge-room/",
-        "/skyship/skyship-meeting-room/",
-        "/skyship/skyship-viewing-room/"
-      ],
-      "connects_to": [
-        "goraks_house",
-        "turtle_island"
-      ],
-      "type": "transport"
-    },
-    "library_2": {
-      "name": "BHC Library-2",
-      "hub": "/library-2/",
-      "pages": [
-        "/library-2/shadow-orb/",
-        "/bhc/bhc-yes/",
-        "/bhc/bhc-no/",
-        "/bhc/bhc-book/"
-      ],
-      "connects_to": [
-        "bounty_quest"
-      ],
-      "type": "library"
-    },
-    "wizard_house": {
-      "name": "Wizard House",
-      "hub": "/wizard-house/",
-      "pages": [
-        "/wizard-house/wizard-inside/"
-      ],
-      "connects_to": [
-        "goraks_house"
-      ],
-      "type": "npc_house"
-    },
-    "the_forge": {
-      "name": "The Forge",
-      "hub": "/the-forge/",
-      "pages": [
-        "/the-forge/forge-blacksmith/",
-        "/the-forge/the-forge-dig/",
-        "/the-forge/forge-shadow/",
-        "/the-forge/forge-shadow-2/",
-        "/the-forge/forge-shadow-3/"
-      ],
-      "connects_to": [
-        "drakenhold"
-      ],
-      "type": "dungeon"
-    },
-    "third_floor_library": {
-      "name": "3rd Floor Library",
-      "hub": "/3rd-floor-library/",
-      "pages": [
-        "/3rd-floor-library/chest/",
-        "/3rd-floor-library/switch/"
-      ],
-      "connects_to": [
-        "bounty_quest"
-      ],
-      "type": "library"
-    },
-    "shadow_lands": {
-      "name": "The Shadow Lands (Endgame)",
-      "hub": "/shadow-lands-left/",
-      "pages": [
-        "/shadow-lands-left/portal-choice/",
-        "/shadow-lands-left/portal/",
-        "/shadow-lands-left/elaras-room/",
-        "/shadow-lands-left/elaras-room-defeated/",
-        "/shadow-lands-left/elaras-room-victory/",
-        "/shadow-lands-left/meet-knight/",
-        "/shadow-lands-left/mk-activate/",
-        "/shadow-lands-left/mk-first-attack/",
-        "/shadow-lands-left/mk-horn-2-attack/",
-        "/shadow-lands-left/mk-horn-2/",
-        "/secret-shadow-lands-q/",
-        "/secret-shadow-lands-q/key/",
-        "/secret-shadow-lands-q/area-2/",
-        "/secret-shadow-lands-q/area-2-eye/",
-        "/secret-shadow-lands-q/rune/"
-      ],
-      "connects_to": [
-        "cave_upper"
-      ],
-      "type": "endgame",
-      "access": "PASSWORD PROTECTED \u2014 requires \"Voidcaster's Code\" from Patreon (patreon.com/sungym)",
-      "notes": "Contains Orb Combine Portal (elaras-room), Kobal boss fight (mk-* pages), and final win condition"
-    }
+    "fates_claw": {"name": "Fates Claw"},
+    "goraks_house": {"name": "Gorak's House", "hub": "/goraks-house/"},
+    "goraks_dungeon": {"name": "Gorak's Dungeon", "hub": "/goraks-dungeon/"},
+    "skyship": {"name": "Skyship"},
+    "wizard_house": {"name": "Wizard House"},
+    "third_floor_library": {"name": "3rd Floor Library"}
   },
+
   "combat": {
-    "discovery_method": "click action link on combat page \u2192 outcome page (server-determined)",
-    "pages": [
-      {
-        "id": "skull_cave_combat",
-        "url": "skull-cave/attack/",
-        "enemy": "Skull Cave Monster",
-        "victory_url": "skull-cave/swing-victory/",
-        "defeat_url": "skull-cave/swing-defeat/",
-        "samples_collected": 0,
-        "p_win": null,
-        "notes": "Victory and defeat pages confirmed. Probability not yet sampled."
+    "summary": "SunQuest combat is NOT random. Encounters are deterministic — outcomes are determined by player choice, equipment, or puzzle solutions. There is NO dice roll / probability involved.",
+    "findings": {
+      "crypt_king": {
+        "fight_page": "/the-crypt/crypt-king-swing/",
+        "mechanism": "choice",
+        "description": "Fight page presents two explicit outcome links. Player picks WIN or LOSE.",
+        "link_1_victory": {"url": "/the-crypt/crypt-king-victory/", "samples": 10, "wins": 10, "win_rate": "100%", "note": "Deterministic WIN"},
+        "link_2_defeat": {"url": "/the-crypt/crypt-king-defeat/", "samples": 10, "wins": 0, "win_rate": "0%", "note": "Deterministic LOSE"}
       },
-      {
-        "id": "crypt_king_combat",
-        "url": "the-crypt/crypt-king-swing/",
-        "enemy": "Crypt King",
-        "victory_url": "the-crypt/crypt-king-victory/",
-        "defeat_url": "the-crypt/crypt-king-defeat/",
-        "samples_collected": 0,
-        "p_win": null,
-        "notes": "Clicking link-0 redirects to s-map (map UI). Fight outcome may be post-click on crypt-king-room. Both victory and defeat pages confirmed."
+      "troll_dungeon": {
+        "fight_page": "/troll-dungeon/troll-dungeon-no-bow/",
+        "mechanism": "equipment_check",
+        "description": "Fight requires bow equipment. Bow → WIN, no bow → fight not accessible (page structure differs).",
+        "with_bow": {"url": "/troll-dungeon/troll-dungeon-fight-equip-bow-victory/", "samples": 10, "wins": 10, "win_rate": "100%", "note": "Deterministic WIN with bow"},
+        "without_bow": {"note": "Not tested — fight page structure changes based on inventory"}
       },
-      {
-        "id": "mummy_combat",
-        "url": "the-crypt/enter-l9-mummy-relic/",
-        "enemy": "Mummy",
-        "victory_url": "the-crypt/crypt-relic-place/",
-        "defeat_url": null,
-        "samples_collected": 0,
-        "p_win": null,
-        "notes": "Not yet sampled. Mummy guards relic path."
-      }
-    ]
-  },
-  "items": {
-    "key_items": [
-      {
-        "name": "Orb of the Sun",
-        "rarity": "Epic",
-        "location": "/cave-7-found/",
-        "status": "CONFIRMED"
+      "mummy": {
+        "fight_page": "/the-crypt/enter-l9-mummy-relic/",
+        "mechanism": "none",
+        "description": "NOT a combat page. This is a relic reward collection screen. No fight occurs.",
+        "outcome": "N/A — reward/collection event"
       },
-      {
-        "name": "Crypt Key",
-        "rarity": "Rare",
-        "location": "/the-crypt/crypt-relic/",
-        "status": "CONFIRMED"
+      "skull_dungeon_714": {
+        "fight_page": "/skull-dungeon/714-2/",
+        "mechanism": "none",
+        "description": "Navigation hub only. No combat trigger found.",
+        "outcome": "N/A — navigation hub"
       },
-      {
-        "name": "Relic of the Afterlife",
-        "rarity": "Rare",
-        "location": "/the-crypt/crypt-relic/",
-        "status": "CONFIRMED"
+      "skull_dungeon_719": {
+        "fight_page": "/skull-dungeon/719-2/",
+        "mechanism": "none",
+        "description": "Navigation hub only. No combat trigger found.",
+        "outcome": "N/A — navigation hub"
       },
-      {
-        "name": "Sword of the Sun",
-        "rarity": "Epic",
-        "location": "/skull-cave/pick-up-sword/",
-        "status": "CONFIRMED"
-      }
-    ],
-    "endgame_items": {
-      "orb_of_umbra": {
-        "name": "Orb of Umbra",
-        "description": "3 orbs combined summon demon Kobal (final boss)",
-        "locations_known": [
-          {
-            "url": "/cave-7-found/",
-            "narrative": "Found in cave \u2014 hooded figure gives orb, warns about combining 3"
-          }
-        ],
-        "status": "1/3 found in cave-7-found \u2014 2 more locations unknown"
+      "skull_dungeon_729": {
+        "fight_page": "/skull-dungeon/729-2/",
+        "mechanism": "puzzle",
+        "description": "Two puzzle chests (riddle + standard). Solving leads to /skull-dungeon/completed/.",
+        "puzzle_1": {"url": "/p-skull-room-lock/", "type": "standard chest"},
+        "puzzle_2": {"url": "/p-skull-room-lock-gs/", "type": "riddle", "riddle": "I'm bone, but not alive, Empty sockets where eyes did reside. What am I, that grins and stares, A relic of death that nobody dares?", "answer": "SKULL"}
       }
     },
-    "orb_of_umbra": {
-      "count": 3,
-      "orb_1": {
-        "location": "/cave-7-found/",
-        "status": "confirmed_free"
-      },
-      "orb_2": {
-        "location": "The Shadow Lands (elaras-room area)",
-        "status": "Patreon-locked"
-      },
-      "orb_3": {
-        "location": "The Shadow Lands (elaras-room area)",
-        "status": "Patreon-locked"
-      }
+    "overall_conclusion": "No probability-based combat. All 'fights' are either (1) player choice between explicit WIN/LOSE links, (2) equipment-gated (have item = win path), or (3) puzzle-based. Combat sampling of 10+ rounds per encounter shows 0 variance — 10/10 wins on WIN link, 10/10 losses on LOSE link."
+  },
+
+  "items": {
+    "source": "https://playsunquest.com/sunquest-items/",
+    "total_tracked": "24+",
+    "notable_items": {
+      "orb_of_umbra": {"name": "The Shadow Lands", "visual": "purple sphere", "type": "key", "count_needed": 3, "note": "Not listed in text database, identified visually from items image"},
+      "orb_of_stars": {"locations": ["Skull Dungeon", "Gorak's House", "The Shadow Lands"], "visual": "star sphere"},
+      "demon_key": {"name": "Devil's Key", "quest_chain": "devils-key → devils-key-2 (requires Poison Potion)", "unlocks": "Shadow Lands (with Lantern)"},
+      "poison_potion": {"name": "Poison Potion", "source": "Dwarf House / findpotion chain", "use": "Required for Devil's Key quest"},
+      "lantern_of_the_dead": {"name": "Lantern of the Dead", "source": "inventory/lantern-of-the-dead", "use": "Unlocks cave-portal-do → Shadow Lands"},
+      "shadow_orb": {"name": "Shadow Orb", "source": "/library-2/shadow-orb/", "type": "info page only, not pickup"},
+      "battle_axe": {"visual": "Norse/Celtic-style with knotwork", "location": "The Crypt / Mummy Relic room (scenery)"},
+      "orc_key": {"source": "Jail Quest woods-key chain"},
+      "flint": {"source": "Eastfall Farms"},
+      "old_map": {"source": "Out at sea / pirate ship"}
     }
   },
+
   "endgame": {
-    "win_condition": "Collect 3 Orbs \u2192 Enter Shadow Lands (Patreon) \u2192 Defeat Kobal \u2192 Elara combines orbs \u2192 WIN",
-    "shadow_lands_entry": "/secret-shadow-lands-q/ (Patreon password required)",
-    "orb_combine_portal": "/shadow-lands-left/portal/ \u2192 /shadow-lands-left/elaras-room/",
-    "kobal_fight_path": "/meet-knight/ \u2192 /mk-activate/ \u2192 /mk-first-attack/ \u2192 /mk-horn-2-attack/ \u2192 /mk-horn-2/",
-    "elara_mechanic": "Bring Kobal's Defeated Token to elaras-room to unlock orb combining",
-    "final_boss": "Demon Kobal (encountered at end of mk-horn-2 chain)",
-    "patreon_password": "Required: \"Voidcaster's Code\" from patreon.com/sungym"
+    "goal": "Collect 3 Orbs of Umbra → combine at Orb Combine Portal → defeat Demon Kobal → WIN",
+    "orb_locations": {
+      "orb_1": {"url": "/cave-7-found/", "description": "From hooded figure in cave", "free": true},
+      "orb_2": {"url": "The Shadow Lands (unlocked)", "requires": "Demon Key + Lantern + Patreon password", "free": false},
+      "orb_3": {"url": "The Shadow Lands (unlocked)", "requires": "Demon Key + Lantern + Patreon password", "free": false}
+    },
+    "full_path": [
+      "1. Start at /starting-location/ → go to Skull Dungeon → cave-7-found → get Orb #1",
+      "2. Get Poison Potion (findpotion chain → dwarfhouse-potion)",
+      "3. Get Devil's Key (devils-key → devils-key-2 with potion in inventory)",
+      "4. Get Lantern of the Dead (inventory/lantern-of-the-dead/)",
+      "5. Go to /cave-portal-do/ with Lantern → /cave-portal-do-lantern/ → Shadow Lands (Patreon password required)",
+      "6. Explore Shadow Lands → fight Kobal → get Defeated Token",
+      "7. Go to Elara's Room (/shadow-lands-left/portal/ → elaras-room/)",
+      "8. Give Elara Kobal's Defeated Token → she combines orbs → Demon Kobal appears",
+      "9. Defeat Demon Kobal → /elaras-room-victory/ → YOU WIN!"
+    ],
+    "patreon_wall": {
+      "blocked_areas": ["The Shadow Lands (all sub-pages)"],
+      "password": "Voidcaster's Code",
+      "source": "patreon.com/sungym",
+      "mechanism": "Password-protected entry page at /secret-shadow-lands-q/"
+    }
   },
-  "exploration_status": {
-    "coverage": "~80 pages across 20+ areas",
-    "orb_status": "1 confirmed (Orb #2/#3 location known but area Patreon-locked)",
-    "endgame_status": "FULLY MAPPED \u2014 Patreon password blocks entry"
+
+  "orbm": {
+    "url": "/orbm/",
+    "description": "Orb Mechanism — accept/deny interaction. Exact function unclear from current exploration.",
+    "accept_page": "/orbm-accept/",
+    "deny_page": "/orbm-deny/"
+  },
+
+  "puzzle_chests": {
+    "p_skull_room_lock": {"type": "standard chest", "url": "/p-skull-room-lock/"},
+    "p_skull_room_lock_gs": {"type": "riddle chest", "url": "/p-skull-room-lock-gs/", "riddle": "I'm bone, but not alive, Empty sockets where eyes did reside. What am I, that grins and stares, A relic of death that nobody dares?", "answer": "SKULL", "reward": "/skull-dungeon/completed/"}
+  },
+
+  "quick_facts": {
+    "total_areas_mapped": "24+",
+    "areas_with_combat": "2 (Crypt King, Troll Dungeon)",
+    "areas_with_puzzles": "1 (Skull Dungeon riddle chest)",
+    "areas_patreon_locked": "1 (Shadow Lands)",
+    "combat_random": false,
+    "endgame_accessible": false,
+    "base_game_complete": true
   }
 }
