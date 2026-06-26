@@ -1,0 +1,2085 @@
+{
+  "3rd-floor-library": {
+    "path": "3rd-floor-library",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bounty-quest/",
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-chest/",
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-switch/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "aa/aa-house": {
+    "path": "aa/aa-house",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/aa/",
+      "https://playsunquest.com/aa/aa-inside/",
+      "https://playsunquest.com/thornwood/",
+      "https://playsunquest.com/aa/aa-house-cross/",
+      "https://playsunquest.com/hidden-path/hidden-path-path/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "aa/aa-knight-quest-2": {
+    "path": "aa/aa-knight-quest-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "https://playsunquest.com/aa/aa-house/",
+      "https://playsunquest.com/witches-woods/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "ancient-dungeon/ancient-dungeon-1": {
+    "path": "ancient-dungeon/ancient-dungeon-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-switch/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-2/",
+      "https://playsunquest.com/ancient-dungeon/ad-stairs/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-stone/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  },
+  "ancient-tree/ancient-tree-forest-2": {
+    "path": "ancient-tree/ancient-tree-forest-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/out-at-sea/old-king-island/",
+      "https://playsunquest.com/ancient-tree/ancient-tree-forest-axe/",
+      "https://playsunquest.com/ancient-tree/ancient-tree-shed/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "arcane-observatory/inside": {
+    "path": "arcane-observatory/inside",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/arcane-observatory/upstairs/",
+      "https://playsunquest.com/arcane-observatory/inside-stone/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "bbh": {
+    "path": "bbh",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-equip/",
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/arcane-observatory/hole/",
+      "https://playsunquest.com/bbh/bbh-lock/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "eastfall-farms/eastfall-farms-empty-inside": {
+    "path": "eastfall-farms/eastfall-farms-empty-inside",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-flint-complete-inside-upstairs/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-empty-inside-lift/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "eastfall-mills": {
+    "path": "eastfall-mills",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-empty/",
+      "https://playsunquest.com/eastfall-mills/mills-inside/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "elder-house/chest-3": {
+    "path": "elder-house/chest-3",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "elder-house/main-chest": {
+    "path": "elder-house/main-chest",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "elven-gauntlet": {
+    "path": "elven-gauntlet",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-none/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "grimstone-tower": {
+    "path": "grimstone-tower",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/grimstone-tower-no/",
+      "https://playsunquest.com/grimstone-tower/yes/",
+      "https://playsunquest.com/grimstone-tower/no-access/",
+      "https://playsunquest.com/grimstone-tower/grimstone-tower-reveal/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "grimstone-tower/inisde-house-2": {
+    "path": "grimstone-tower/inisde-house-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-book/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-book-blue/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "grimstone-tower/inisde-house-open-collect": {
+    "path": "grimstone-tower/inisde-house-open-collect",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-book/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-book-blue/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "library-2/bluedwarf": {
+    "path": "library-2/bluedwarf",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/",
+      "https://playsunquest.com/library-2/blue-dwarf-2/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "library-2/library-locked": {
+    "path": "library-2/library-locked",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "locked-library": {
+    "path": "locked-library",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "midnight-inn/hallway-1": {
+    "path": "midnight-inn/hallway-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/back-lobby/",
+      "https://playsunquest.com/midnight-inn/elara/",
+      "https://playsunquest.com/midnight-inn/hallway-1-lock/",
+      "https://playsunquest.com/midnight-inn/grimm/",
+      "https://playsunquest.com/midnight-inn/orlan/",
+      "https://playsunquest.com/midnight-inn/aveline/",
+      "https://playsunquest.com/midnight-inn/hallway-2/",
+      "https://playsunquest.com/midnight-inn/hallway-1-wand/",
+      "https://playsunquest.com/midnight-inn/hallway-1-poison/"
+    ],
+    "area_links": [],
+    "total_game_links": 9,
+    "total_area_links": 0
+  },
+  "midnight-inn/stairs": {
+    "path": "midnight-inn/stairs",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/",
+      "https://playsunquest.com/midnight-inn/no/",
+      "https://playsunquest.com/midnight-inn/yes/",
+      "https://playsunquest.com/midnight-inn/book-1/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-kingdom-2": {
+    "path": "ooze-kingdom/ooze-kingdom-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/wc/",
+      "https://playsunquest.com/ooze-kingdom/ooze-lock/",
+      "https://playsunquest.com/ooze-kingdom/ooze-kingdom-3/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-upper-f": {
+    "path": "ooze-kingdom/ooze-upper-f",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ooze-kingdom/",
+      "https://playsunquest.com/ooze-kingdom/equip/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-turtle-f/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "out-at-sea": {
+    "path": "out-at-sea",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-beach-return/",
+      "https://playsunquest.com/out-at-sea/pickupsword/",
+      "https://playsunquest.com/out-at-sea/open-bar/",
+      "https://playsunquest.com/out-at-sea/old-king-island/",
+      "https://playsunquest.com/out-at-sea/esl-sail/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "out-at-sea/open-bar": {
+    "path": "out-at-sea/open-bar",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-beach-return/",
+      "https://playsunquest.com/out-at-sea/pickupsword/",
+      "https://playsunquest.com/out-at-sea/grab-harpoon/",
+      "https://playsunquest.com/out-at-sea/old-king-island/",
+      "https://playsunquest.com/out-at-sea/esl-sail/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "shadowshade-grove": {
+    "path": "shadowshade-grove",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-2/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-hole/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonemyst-village-quest-line": {
+    "path": "stonemyst-village-quest-line",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/stonemyst-village/inside/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-2/",
+      "https://playsunquest.com/stonemyst-village/locked/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-quest-line/",
+      "https://playsunquest.com/grimstone-tower/"
+    ],
+    "area_links": [],
+    "total_game_links": 6,
+    "total_area_links": 0
+  },
+  "stonemyst-village/elder-inside-no-scroll": {
+    "path": "stonemyst-village/elder-inside-no-scroll",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/stonemyst-village/elder-upstairs/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonemyst-village/inside-accept-chest": {
+    "path": "stonemyst-village/inside-accept-chest",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/no/",
+      "https://playsunquest.com/stonemyst-village/yes/",
+      "https://playsunquest.com/stonemyst-village/inside-accept-book/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonemyst-village/shadowshade-grove": {
+    "path": "stonemyst-village/shadowshade-grove",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-2/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-hole/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonemyst-village/shadowshade-note": {
+    "path": "stonemyst-village/shadowshade-note",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-2/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonewind": {
+    "path": "stonewind",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/",
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/stonewind/stonewind-ladder/",
+      "https://playsunquest.com/stonewind/stonewind-main/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-cave": {
+    "path": "stonewind/stonewind-cave",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/stonewind/stonewind-cave-city/",
+      "https://playsunquest.com/stonewind/stonewind-ghost/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-gate": {
+    "path": "stonewind/stonewind-gate",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-main": {
+    "path": "stonewind/stonewind-main",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/",
+      "https://playsunquest.com/stonewind/stonewind-beach/",
+      "https://playsunquest.com/stonewind/stonewind-gate/",
+      "https://playsunquest.com/stonewind/stonewind-cave/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "temple-of-laskara/row": {
+    "path": "temple-of-laskara/row",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/temple-of-laskara/",
+      "https://playsunquest.com/temple-of-laskara/row-2/",
+      "https://playsunquest.com/temple-of-laskara/temple-inside/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "the-forge": {
+    "path": "the-forge",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/the-orc/",
+      "https://playsunquest.com/the-forge/forge-blacksmith/",
+      "https://playsunquest.com/the-forge/the-forge-dig/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "wc-book-1": {
+    "path": "wc-book-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/",
+      "https://playsunquest.com/wc-book-2/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "witches-woods/inside-witch-code": {
+    "path": "witches-woods/inside-witch-code",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "woods-choice": {
+    "path": "woods-choice",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  },
+  "woods-door-4": {
+    "path": "woods-door-4",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 9,
+    "total_area_links": 0
+  },
+  "3rd-floor-library/3rd-floor-library-switch": {
+    "path": "3rd-floor-library/3rd-floor-library-switch",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bounty-quest/",
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-chest/",
+      "https://playsunquest.com/ancient-dungeon/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "aa/aa-house-cross": {
+    "path": "aa/aa-house-cross",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/aa/",
+      "https://playsunquest.com/aa/aa-inside/",
+      "https://playsunquest.com/thornwood/",
+      "https://playsunquest.com/aa/hr/",
+      "https://playsunquest.com/hidden-path/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "ancient-dungeon": {
+    "path": "ancient-dungeon",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-switch/",
+      "",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-1/",
+      "",
+      "",
+      "",
+      "https://playsunquest.com/ancient-dungeon/ad-stairs/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-stone/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  },
+  "ancient-dungeon/ancient-dungeon-2": {
+    "path": "ancient-dungeon/ancient-dungeon-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-switch/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-3/",
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/ad-stairs/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-stone/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  },
+  "arcane-observatory": {
+    "path": "arcane-observatory",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-equip/",
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/arcane-observatory/hole/",
+      "https://playsunquest.com/bbh/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "arcane-observatory/inside-stone": {
+    "path": "arcane-observatory/inside-stone",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/arcane-observatory/upstairs/",
+      "https://playsunquest.com/arcane-observatory/inside-stone-rt/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "cct": {
+    "path": "cct",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/cct/cct-inside-choice/",
+      "https://playsunquest.com/cct/gc/",
+      "https://playsunquest.com/cct/cct-row-lock/",
+      "https://playsunquest.com/arcane-observatory/row/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "eastfall-farms/eastfall-farms-equip": {
+    "path": "eastfall-farms/eastfall-farms-equip",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-flint/",
+      "https://playsunquest.com/eastfall-farms/",
+      "https://playsunquest.com/arcane-observatory/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "elder-house": {
+    "path": "elder-house",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "https://playsunquest.com/elder-house/door-1/",
+      "https://playsunquest.com/elder-house/rune/",
+      "small rock",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/"
+    ],
+    "area_links": [],
+    "total_game_links": 12,
+    "total_area_links": 0
+  },
+  "elder-house/door-1": {
+    "path": "elder-house/door-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "",
+      "https://playsunquest.com/elder-house/rune/",
+      "https://playsunquest.com/small-rock/",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/"
+    ],
+    "area_links": [],
+    "total_game_links": 12,
+    "total_area_links": 0
+  },
+  "elder-house/open-book": {
+    "path": "elder-house/open-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/elder-house/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/"
+    ],
+    "area_links": [],
+    "total_game_links": 12,
+    "total_area_links": 0
+  },
+  "estonemyst-villag/chest-choice": {
+    "path": "estonemyst-villag/chest-choice",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/book-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "grimstone-tower/grimstone-tower-no": {
+    "path": "grimstone-tower/grimstone-tower-no",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/no-access/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "grimstone-tower/inisde-house-book": {
+    "path": "grimstone-tower/inisde-house-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/grimstone-tower/inisde-house-2/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "grimstone-tower/no-access": {
+    "path": "grimstone-tower/no-access",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "",
+      "https://playsunquest.com/grimstone-tower/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "library-2/crow-vs-feds": {
+    "path": "library-2/crow-vs-feds",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "library-2/library-lq": {
+    "path": "library-2/library-lq",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bounty-quest/avenr/",
+      "https://playsunquest.com/bhc/bhc-book/",
+      "https://playsunquest.com/wc-book-1/",
+      "https://playsunquest.com/wizard-house/purple-book/",
+      "https://playsunquest.com/wizard-house/dragon-book/",
+      "https://playsunquest.com/library-2/bluedwarf/",
+      "https://playsunquest.com/locked-library/",
+      "https://playsunquest.com/library-2/crow-vs-feds/",
+      "https://playsunquest.com/library-2/sewer-book/",
+      "https://playsunquest.com/library-2/golden-book/",
+      "https://playsunquest.com/library-2/library-locked/",
+      "https://playsunquest.com/library-2/kronos-book/",
+      "https://playsunquest.com/bhc/temple-book-1/",
+      "https://playsunquest.com/bhc/bhc-ancient-1/",
+      "https://playsunquest.com/library-2/turtle-book/",
+      "https://playsunquest.com/library-2/shadow-orb/"
+    ],
+    "area_links": [],
+    "total_game_links": 16,
+    "total_area_links": 0
+  },
+  "midnight-inn": {
+    "path": "midnight-inn",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/midnight-inn/lobby/",
+      "https://playsunquest.com/midnight-inn/midnight-inn-lock/",
+      "https://playsunquest.com/stonewind/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "midnight-inn/lobby": {
+    "path": "midnight-inn/lobby",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/",
+      "https://playsunquest.com/midnight-inn/no/",
+      "https://playsunquest.com/midnight-inn/yes/",
+      "https://playsunquest.com/midnight-inn/book-1/",
+      "https://playsunquest.com/midnight-inn/stairs/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "midnight-inn/yes": {
+    "path": "midnight-inn/yes",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/",
+      "https://playsunquest.com/midnight-inn/book-1/",
+      "https://playsunquest.com/midnight-inn/hallway-1/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-kingdom-3": {
+    "path": "ooze-kingdom/ooze-kingdom-3",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/wc/",
+      "https://playsunquest.com/ooze-kingdom/ooze-lock/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-upper-need": {
+    "path": "ooze-kingdom/ooze-upper-need",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ooze-kingdom/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-f/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-need-db/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-turtle/",
+      ""
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "out-at-sea/attacksword": {
+    "path": "out-at-sea/attacksword",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/out-at-sea/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "out-at-sea/pickupsword": {
+    "path": "out-at-sea/pickupsword",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-beach-return/",
+      "https://playsunquest.com/out-at-sea/attacksword/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "shadowshade-grove/variant-2": {
+    "path": "shadowshade-grove/variant-2",
+    "status": "ERROR",
+    "code": 404
+  },
+  "stonemyst-village/book-open": {
+    "path": "stonemyst-village/book-open",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/yes/",
+      "https://playsunquest.com/stonemyst-village/book-open-eye/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonemyst-village/elder-upstairs": {
+    "path": "stonemyst-village/elder-upstairs",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder-down-stairs/",
+      "https://playsunquest.com/stonemyst-village/elder-upstairs-locked/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonemyst-village/locked": {
+    "path": "stonemyst-village/locked",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/stonemyst-village/inside/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-2/",
+      "https://playsunquest.com/stonemyst-village/locked/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove/",
+      "https://playsunquest.com/grimstone-tower/"
+    ],
+    "area_links": [],
+    "total_game_links": 6,
+    "total_area_links": 0
+  },
+  "stonemyst-village/shadowshade-grove-2": {
+    "path": "stonemyst-village/shadowshade-grove-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-hole-no-g/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonemyst-village/shadowshade-note-no-ghost": {
+    "path": "stonemyst-village/shadowshade-note-no-ghost",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-2/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-accept": {
+    "path": "stonewind/stonewind-accept",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-ladder/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-cave-city": {
+    "path": "stonewind/stonewind-cave-city",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "",
+      "https://playsunquest.com/stonewind/stonewind-ghost/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-ghost": {
+    "path": "stonewind/stonewind-ghost",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/stonewind/stonewind-cave-city/",
+      "https://playsunquest.com/stonewind/stonewind-ghost-eye/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-what-is": {
+    "path": "stonewind/stonewind-what-is",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-ladder/",
+      "https://playsunquest.com/stonewind/stonewind-decline/",
+      "https://playsunquest.com/stonewind/stonewind-accept/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "temple-of-laskara/temple": {
+    "path": "temple-of-laskara/temple",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/temple-of-laskara/river/",
+      "",
+      "https://playsunquest.com/temple-of-laskara/row/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "thornwood": {
+    "path": "thornwood",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/aa/aa-house/",
+      "",
+      "https://playsunquest.com/thornwood/thornwood-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "welcome-eg": {
+    "path": "welcome-eg",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-none/",
+      "https://playsunquest.com/elven-gauntlet/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "witches-woods/inside-witch-house": {
+    "path": "witches-woods/inside-witch-house",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/witches-woods/",
+      "https://playsunquest.com/orbm/",
+      "https://playsunquest.com/witches-woods/inside-witch-code/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "woods-choice-2": {
+    "path": "woods-choice-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/findpotion/",
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/temple-of-laskara/",
+      "https://playsunquest.com/temple-of-laskara/woods-no/",
+      "https://playsunquest.com/temple-of-laskara/woods-yes/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "woods-lk": {
+    "path": "woods-lk",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/green-key-quest/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  },
+  "a-witch-quest/pond": {
+    "path": "a-witch-quest/pond",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/the-orc/",
+      "https://playsunquest.com/a-witch-quest/pond-pole/",
+      "https://playsunquest.com/a-witch-quest/pond-locked/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "aa/aa-inside": {
+    "path": "aa/aa-inside",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/aa/aa-house/",
+      "https://playsunquest.com/aa/aa-no/",
+      "https://playsunquest.com/aa/aa-yes/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "ancient-dungeon/ad-bd-h": {
+    "path": "ancient-dungeon/ad-bd-h",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ancient-dungeon/ad-stairs/",
+      "https://playsunquest.com/ancient-dungeon/ad-bd-h-door/",
+      "https://playsunquest.com/ancient-dungeon/ad-bd-hallway/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "ancient-dungeon/ancient-dungeon-stone": {
+    "path": "ancient-dungeon/ancient-dungeon-stone",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-switch/",
+      "",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-1/",
+      "",
+      "",
+      "",
+      "https://playsunquest.com/ancient-dungeon/ad-stairs/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-stone-r/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  },
+  "arcane-observatory/hole": {
+    "path": "arcane-observatory/hole",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-equip/",
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/arcane-observatory/hole-note/",
+      "https://playsunquest.com/bbh/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "arcane-observatory/row-lock": {
+    "path": "arcane-observatory/row-lock",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "eastfall-farms": {
+    "path": "eastfall-farms",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-no/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-yes/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-equip/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-empty-inside/",
+      "https://playsunquest.com/eastfall-farms/attic/",
+      "https://playsunquest.com/eastfall-mills/"
+    ],
+    "area_links": [],
+    "total_game_links": 7,
+    "total_area_links": 0
+  },
+  "eastfall-farms/eastfall-farms-no": {
+    "path": "eastfall-farms/eastfall-farms-no",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "",
+      "",
+      "",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-empty-inside/",
+      "https://playsunquest.com/eastfall-farms/attic/",
+      "https://playsunquest.com/eastfall-mills/"
+    ],
+    "area_links": [],
+    "total_game_links": 7,
+    "total_area_links": 0
+  },
+  "elder-house/big-rock": {
+    "path": "elder-house/big-rock",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "https://playsunquest.com/elder-house/door-1/",
+      "https://playsunquest.com/elder-house/rune/",
+      "https://playsunquest.com/small-rock/",
+      "",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/"
+    ],
+    "area_links": [],
+    "total_game_links": 12,
+    "total_area_links": 0
+  },
+  "elder-house/drain": {
+    "path": "elder-house/drain",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "https://playsunquest.com/elder-house/door-1/",
+      "https://playsunquest.com/elder-house/rune/",
+      "https://playsunquest.com/small-rock/",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "",
+      "https://playsunquest.com/elder-house/chest-3/",
+      "https://playsunquest.com/elder-house/green-paper/"
+    ],
+    "area_links": [],
+    "total_game_links": 13,
+    "total_area_links": 0
+  },
+  "elder-house/pipe-key-1": {
+    "path": "elder-house/pipe-key-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "https://playsunquest.com/elder-house/door-1/",
+      "https://playsunquest.com/elder-house/rune/",
+      "https://playsunquest.com/small-rock/",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/"
+    ],
+    "area_links": [],
+    "total_game_links": 12,
+    "total_area_links": 0
+  },
+  "fast-travel-2": {
+    "path": "fast-travel-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bounty-quest/",
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/lancaster/",
+      "https://playsunquest.com/goraks-house/goraks-dungeon/",
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://inkarnate.com/m/8n2NvX/"
+    ],
+    "area_links": [],
+    "total_game_links": 7,
+    "total_area_links": 0
+  },
+  "grimstone-tower/grimstone-tower-reveal": {
+    "path": "grimstone-tower/grimstone-tower-reveal",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/grimstone-tower-no/",
+      "https://playsunquest.com/grimstone-tower/yes/",
+      "https://playsunquest.com/grimstone-tower/no-access/",
+      "https://playsunquest.com/grimstone-tower/grimstone-tower-titan/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "grimstone-tower/inisde-house-book-blue": {
+    "path": "grimstone-tower/inisde-house-book-blue",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/grimstone-tower/inisde-house-2/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "grimstone-tower/yes": {
+    "path": "grimstone-tower/yes",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/woods/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "library-2/golden-book": {
+    "path": "library-2/golden-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "library-2/sewer-book": {
+    "path": "library-2/sewer-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/",
+      "https://playsunquest.com/library-2/sewer-book-2/",
+      "https://playsunquest.com/sewer-quest/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "midnight-inn/book-1": {
+    "path": "midnight-inn/book-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/yes/",
+      "https://playsunquest.com/midnight-inn/book-2/",
+      ""
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "midnight-inn/midnight-inn-lock": {
+    "path": "midnight-inn/midnight-inn-lock",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "ooze-kingdom": {
+    "path": "ooze-kingdom",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/wc/",
+      "https://playsunquest.com/ooze-kingdom/ooze-lock/",
+      "https://playsunquest.com/ooze-kingdom/ooze-kingdom-1/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-lock": {
+    "path": "ooze-kingdom/ooze-lock",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-upper-need-db": {
+    "path": "ooze-kingdom/ooze-upper-need-db",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ooze-kingdom/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-f/",
+      "",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-turtle/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-need/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "out-at-sea/esl-sail": {
+    "path": "out-at-sea/esl-sail",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/out-at-sea/",
+      "https://playsunquest.com/esi/",
+      "https://playsunquest.com/out-at-sea/old-king-island/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "rivervale": {
+    "path": "rivervale",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/wc/",
+      "https://playsunquest.com/rivervale-locked/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "spider-quest/avenir-locked-door": {
+    "path": "spider-quest/avenir-locked-door",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "stonemyst-village/closed": {
+    "path": "stonemyst-village/closed",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove/",
+      "https://playsunquest.com/stonemyst-village/tree/",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_links": [],
+    "total_game_links": 7,
+    "total_area_links": 0
+  },
+  "stonemyst-village/inside": {
+    "path": "stonemyst-village/inside",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/no/",
+      "https://playsunquest.com/stonemyst-village/yes/",
+      "https://playsunquest.com/stonemyst-village/inside-accept-chest/",
+      "https://playsunquest.com/stonemyst-village/inside-accept-book/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "stonemyst-village/no": {
+    "path": "stonemyst-village/no",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "stonemyst-village/shadowshade-hole": {
+    "path": "stonemyst-village/shadowshade-hole",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-2/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-note/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonemyst-village/tree": {
+    "path": "stonemyst-village/tree",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove/",
+      "https://playsunquest.com/stonemyst-village/rock-1/",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_links": [],
+    "total_game_links": 6,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-beach": {
+    "path": "stonewind/stonewind-beach",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/out-at-sea/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-decline": {
+    "path": "stonewind/stonewind-decline",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-ladder/",
+      "https://playsunquest.com/stonewind/stonewind-what-is/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-ghost-eye": {
+    "path": "stonewind/stonewind-ghost-eye",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/stonewind/stonewind-cave-city/",
+      "",
+      "https://playsunquest.com/stonewind/stonewind-ghost-eye-2/",
+      "https://playsunquest.com/stonewind/stonewind-ghost/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "temple-of-laskara": {
+    "path": "temple-of-laskara",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/temple-of-laskara/river/",
+      "https://playsunquest.com/temple-of-laskara/temple/",
+      "https://playsunquest.com/temple-of-laskara/row/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "temple-of-laskara/woods-no": {
+    "path": "temple-of-laskara/woods-no",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/findpotion/",
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/temple-of-laskara/",
+      "https://playsunquest.com/woods-choice-2/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "troll-dungeon-book": {
+    "path": "troll-dungeon-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bounty-quest/avenr/",
+      "",
+      "https://playsunquest.com/troll-dungeon/chest-room/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "witches-woods": {
+    "path": "witches-woods",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/aa/",
+      "https://playsunquest.com/witches-woods/inside-witch-house/",
+      "https://playsunquest.com/witches-woods/woods-1n/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "witches-woods/woods-1n": {
+    "path": "witches-woods/woods-1n",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/witches-woods/",
+      "https://playsunquest.com/witches-woods/woods-2/",
+      "https://playsunquest.com/witches-woods/woods-1npa/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "woods-door-1": {
+    "path": "woods-door-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 9,
+    "total_area_links": 0
+  },
+  "woods-none": {
+    "path": "woods-none",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 9,
+    "total_area_links": 0
+  },
+  "aa": {
+    "path": "aa",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "https://playsunquest.com/aa/aa-house/",
+      "https://playsunquest.com/witches-woods/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "aa/aa-knight-quest-1": {
+    "path": "aa/aa-knight-quest-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "https://playsunquest.com/aa/aa-house/",
+      "https://playsunquest.com/witches-woods/",
+      "https://playsunquest.com/aa/aa-knight-quest-2/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "ancient-dungeon/ad-stairs": {
+    "path": "ancient-dungeon/ad-stairs",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ancient-dungeon/",
+      "https://playsunquest.com/ancient-dungeon/ad-bd-h/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "ancient-dungeon/ancient-dungeon-stone-r": {
+    "path": "ancient-dungeon/ancient-dungeon-stone-r",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/3rd-floor-library/3rd-floor-library-switch/",
+      "https://playsunquest.com/ancient-dungeon/ancient-dungeon-1/",
+      "https://playsunquest.com/ancient-dungeon/ad-stairs/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "arcane-observatory/hole-note": {
+    "path": "arcane-observatory/hole-note",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-equip/",
+      "https://playsunquest.com/arcane-observatory/row/",
+      "https://playsunquest.com/bbh/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "arcane-observatory/upstairs": {
+    "path": "arcane-observatory/upstairs",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/arcane-observatory/inside/",
+      "https://playsunquest.com/arcane-observatory/telescope/",
+      "https://playsunquest.com/arcane-observatory/rock/",
+      "https://playsunquest.com/arcane-observatory/hidden/",
+      "https://playsunquest.com/arcane-observatory/cct/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "eastfall-farms/attic": {
+    "path": "eastfall-farms/attic",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/eastfall-farms/",
+      "https://playsunquest.com/eastfall-farms/attic-lock/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "eastfall-farms/eastfall-farms-yes": {
+    "path": "eastfall-farms/eastfall-farms-yes",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/a-jail-quest/woods/",
+      "",
+      "",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-equip/",
+      "https://playsunquest.com/eastfall-farms/eastfall-farms-empty-inside/",
+      "https://playsunquest.com/eastfall-farms/attic/",
+      "https://playsunquest.com/eastfall-mills/"
+    ],
+    "area_links": [],
+    "total_game_links": 7,
+    "total_area_links": 0
+  },
+  "elder-house/chest-2": {
+    "path": "elder-house/chest-2",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "elder-house/drawer-1": {
+    "path": "elder-house/drawer-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "https://playsunquest.com/elder-house/door-1/",
+      "https://playsunquest.com/elder-house/rune/",
+      "https://playsunquest.com/small-rock/",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/"
+    ],
+    "area_links": [],
+    "total_game_links": 12,
+    "total_area_links": 0
+  },
+  "elder-house/rune": {
+    "path": "elder-house/rune",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/",
+      "https://playsunquest.com/elder-house/pipe-key-1/",
+      "https://playsunquest.com/elder-house/drawer-1/",
+      "https://playsunquest.com/elder-house/open-book/",
+      "https://playsunquest.com/elder-house/chest-2/",
+      "https://playsunquest.com/elder-house/main-chest/",
+      "https://playsunquest.com/elder-house/door-1/",
+      "",
+      "https://playsunquest.com/small-rock/",
+      "https://playsunquest.com/elder-house/big-rock/",
+      "https://playsunquest.com/elder-house/drain/",
+      "https://playsunquest.com/elder-house/chest-3/",
+      "https://playsunquest.com/elder-house/blue-paper/"
+    ],
+    "area_links": [],
+    "total_game_links": 13,
+    "total_area_links": 0
+  },
+  "green-key-quest": {
+    "path": "green-key-quest",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/stonemyst-village/inside/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-2/",
+      "https://playsunquest.com/green-key-quest/gk-inside/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove/",
+      "https://playsunquest.com/grimstone-tower/"
+    ],
+    "area_links": [],
+    "total_game_links": 6,
+    "total_area_links": 0
+  },
+  "grimstone-tower/grimstone-tower-titan": {
+    "path": "grimstone-tower/grimstone-tower-titan",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/grimstone-tower-no/",
+      "https://playsunquest.com/grimstone-tower/yes/",
+      "https://playsunquest.com/grimstone-tower/no-access/",
+      ""
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "grimstone-tower/inisde-house-open": {
+    "path": "grimstone-tower/inisde-house-open",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-book/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-book-blue/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-open-collect/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "hidden-path/hidden-path-path": {
+    "path": "hidden-path/hidden-path-path",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/aa/aa-house/",
+      "https://playsunquest.com/hidden-path/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "library-2/kronos-book": {
+    "path": "library-2/kronos-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "library-2/turtle-book": {
+    "path": "library-2/turtle-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bhc/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "midnight-inn/book-2": {
+    "path": "midnight-inn/book-2",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/yes/",
+      "https://playsunquest.com/midnight-inn/book-3/",
+      "https://playsunquest.com/midnight-inn/book-1/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "midnight-inn/no": {
+    "path": "midnight-inn/no",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/",
+      "https://playsunquest.com/midnight-inn/book-1/",
+      "https://playsunquest.com/midnight-inn/stairs/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-kingdom-1": {
+    "path": "ooze-kingdom/ooze-kingdom-1",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/wc/",
+      "https://playsunquest.com/ooze-kingdom/ooze-lock/",
+      "https://playsunquest.com/ooze-kingdom/ooze-kingdom-2/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-upper": {
+    "path": "ooze-kingdom/ooze-upper",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ooze-kingdom/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-f/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-need-db/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-turtle/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-need/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "ooze-kingdom/ooze-upper-turtle": {
+    "path": "ooze-kingdom/ooze-upper-turtle",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/ooze-kingdom/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-f/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-need-db/",
+      "https://playsunquest.com/turtle-island/",
+      "https://playsunquest.com/ooze-kingdom/ooze-upper-need/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "out-at-sea/old-king-island": {
+    "path": "out-at-sea/old-king-island",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/out-at-sea/",
+      "https://playsunquest.com/ancient-tree/ancient-tree-forest-2/",
+      "https://playsunquest.com/out-at-sea/esl-sail/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "rivervale-locked": {
+    "path": "rivervale-locked",
+    "status": "OK",
+    "game_links": [],
+    "area_links": [],
+    "total_game_links": 0,
+    "total_area_links": 0
+  },
+  "stonemyst-village": {
+    "path": "stonemyst-village",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/stonemyst-village/inside/",
+      "https://playsunquest.com/grimstone-tower/inisde-house-2/",
+      "https://playsunquest.com/stonemyst-village/locked/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove/",
+      "https://playsunquest.com/grimstone-tower/"
+    ],
+    "area_links": [],
+    "total_game_links": 6,
+    "total_area_links": 0
+  },
+  "stonemyst-village/elder": {
+    "path": "stonemyst-village/elder",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/elder-inside-no-scroll/",
+      "https://playsunquest.com/elder-house/",
+      "https://playsunquest.com/stonemyst-village/secret/",
+      "https://playsunquest.com/midnight-inn/"
+    ],
+    "area_links": [],
+    "total_game_links": 5,
+    "total_area_links": 0
+  },
+  "stonemyst-village/inside-accept-book": {
+    "path": "stonemyst-village/inside-accept-book",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/no/",
+      "https://playsunquest.com/stonemyst-village/yes/",
+      "https://playsunquest.com/stonemyst-village/inside-accept-chest/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonemyst-village/secret": {
+    "path": "stonemyst-village/secret",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/elder/"
+    ],
+    "area_links": [],
+    "total_game_links": 1,
+    "total_area_links": 0
+  },
+  "stonemyst-village/shadowshade-hole-no-g": {
+    "path": "stonemyst-village/shadowshade-hole-no-g",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/stonemyst-village/closed/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-grove-2/",
+      "https://playsunquest.com/stonemyst-village/shadowshade-note-no-ghost/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "stonemyst-village/yes": {
+    "path": "stonemyst-village/yes",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonemyst-village-quest-line/",
+      "https://playsunquest.com/estonemyst-villag/chest-choice/",
+      "https://playsunquest.com/stonemyst-village/book-open/"
+    ],
+    "area_links": [],
+    "total_game_links": 3,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-beach-return": {
+    "path": "stonewind/stonewind-beach-return",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/out-at-sea/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-down-ladder": {
+    "path": "stonewind/stonewind-down-ladder",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/stonewind/stonewind-ladder/",
+      "https://playsunquest.com/stonewind/stonewind-what-is/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "stonewind/stonewind-ladder": {
+    "path": "stonewind/stonewind-ladder",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/midnight-inn/",
+      "https://playsunquest.com/stonewind/stonewind-main/",
+      "https://playsunquest.com/stonewind/stonewind-down-ladder/",
+      "https://playsunquest.com/stonewind/stonewind-main/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "temple-of-laskara/river": {
+    "path": "temple-of-laskara/river",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "",
+      "https://playsunquest.com/temple-of-laskara/temple/",
+      "https://playsunquest.com/temple-of-laskara/row/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "temple-of-laskara/woods-yes": {
+    "path": "temple-of-laskara/woods-yes",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/findpotion/",
+      "https://playsunquest.com/woods/",
+      "https://playsunquest.com/temple-of-laskara/",
+      "https://playsunquest.com/temple-of-laskara/woods-tip/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "wc": {
+    "path": "wc",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/bounty-quest/",
+      "https://playsunquest.com/wc/wc-left-path/",
+      "https://playsunquest.com/ooze-kingdom/",
+      "https://playsunquest.com/rivervale/"
+    ],
+    "area_links": [],
+    "total_game_links": 4,
+    "total_area_links": 0
+  },
+  "witches-woods/back-sisters": {
+    "path": "witches-woods/back-sisters",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/witches-woods/",
+      "https://playsunquest.com/orbm/"
+    ],
+    "area_links": [],
+    "total_game_links": 2,
+    "total_area_links": 0
+  },
+  "woods": {
+    "path": "woods",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 9,
+    "total_area_links": 0
+  },
+  "woods-door-3": {
+    "path": "woods-door-3",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-way-found/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 9,
+    "total_area_links": 0
+  },
+  "woods-way-found": {
+    "path": "woods-way-found",
+    "status": "OK",
+    "game_links": [
+      "https://playsunquest.com/woods-choice-2/",
+      "https://playsunquest.com/woods-lk/",
+      "https://playsunquest.com/woods-choice/",
+      "https://playsunquest.com/stonemyst-village/",
+      "https://playsunquest.com/woods-door-1/",
+      "https://playsunquest.com/welcome-eg/",
+      "https://playsunquest.com/woods-door-3/",
+      "https://playsunquest.com/woods-door-4/"
+    ],
+    "area_links": [],
+    "total_game_links": 8,
+    "total_area_links": 0
+  }
+}
