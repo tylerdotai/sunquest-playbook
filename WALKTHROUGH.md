@@ -237,3 +237,38 @@ python sunquest_agent.py --action find_orb --orb_number 2
 6. ⏳ Dragon areas contents (likely orb #2 or #3)
 7. ⏳ The Witch, Forge, Dwarf quest rewards
 8. ⏳ 15+ unexplored areas from the items page
+
+## 🌑 The Shadow Lands (Endgame) — LOCKED
+**Access:** Complete the Demon Key quest chain first.
+
+### Step 1: Get the Demon Key
+1. Start at `/devils-key/` → `/devils-key-2/`
+2. You may need potions from `/findpotion/` chain to unlock
+3. Obtain the **Demon Key** (blue skull-key from items image)
+
+### Step 2: Enter The Shadow Lands
+1. Use the Demon Key at `/shadow-lands/` (connected to Drakenhold)
+2. Find **Orb of Umbra #2** and **Orb of Umbra #3**
+
+### Step 3: Combine Orbs & Defeat Demon Kobal
+1. Once you have all 3 Orbs of Umbra, go to the **Orb Combine Portal**
+2. Combine the orbs → **Demon Kobal** appears
+3. Defeat Demon Kobal → **WIN THE GAME**
+
+## 🎯 Win Condition Summary
+```
+Orb #1: /cave-7-found/ (cave adventurer)
+    ↓
+Orb #2: The Shadow Lands (needs Demon Key)
+    ↓
+Orb #3: The Shadow Lands (needs Demon Key)
+    ↓
+Combine at Orb Combine Portal
+    ↓
+Fight & Defeat DEMON KOBAL
+    ↓
+🎉 YOU WIN! 🎉
+```
+
+---
+*Walkthrough last updated: 2026-06-27 | v1.2*
